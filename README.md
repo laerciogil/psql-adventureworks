@@ -16,7 +16,7 @@ It uses docker and docker-compose to run containers with stack components. So th
 After cloning the repository, in the project directory, you must run the command below to run the containers.
 
 ```shell
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 ### Accessing database with pgadmin
@@ -34,7 +34,7 @@ In the "Connection" tab you must enter the following fields:
 
 To get the link to jupyterlab environment, you can check the logs of the container running the command:
 ```shell
-$ docker logs jupyterlab
+docker logs jupyterlab
 ```
 The end of the output of this command will look something like this:
 ```text
